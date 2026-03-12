@@ -1,51 +1,71 @@
-# Event Driven Order Processing Platform
-This project demonstrates a scalable distributed microservices architecture using event-driven design.
-The system simulates a modern e-commerce backend capable of processing high-volume orders using asynchronous messaging.
+# Hygreva Chavali
 
-## Architecture Overview
-The platform uses event-driven communication between services using Kafka.
-Client → API Gateway → Order Service → Kafka Events
+Engineering Manager | Cloud & Distributed Systems Architect
 
-Services:
-- Order Service
-- Inventory Service
-- Payment Service
-- Notification Service
+20+ years building scalable platforms, microservices, and cloud-native systems.
 
-## Technology Stack
-
-Backend
-- Java
-- Spring Boot
-
-Messaging
-- Apache Kafka
-
-Infrastructure
-- Docker
-- Kubernetes
-- Terraform
-
-Observability
-- Prometheus
-- Grafana
-
-Database
-- PostgreSQL
-
-## Architecture Diagram
-
-(Insert architecture diagram)
-
-## Key Design Concepts
-
-- Event Driven Architecture
-- Asynchronous Processing
+## Areas of Expertise
+- Distributed Systems
+- Cloud Architecture (AWS)
+- Data Platforms
 - Microservices
-- Distributed System Reliability
-- Horizontal Scalability
+- Platform Engineering
 
-## Running the System
+## Featured Projects
+1. Event-Driven Microservices Platform
+2. Real-Time Data Streaming Pipeline
+3. Multi-Region Cloud Architecture
+4. AI Workflow Automation Platform
 
-```bash
-docker-compose up
+The platform uses event-driven architecture to ensure
+loose coupling between services and high scalability.
+
+Kafka is used as the messaging backbone to support
+high-throughput asynchronous processing.
+
+
+Explain what the system does.
+
+2️⃣ Architecture diagram
+
+Include a visual diagram.
+
+3️⃣ Key design decisions
+
+Explain why technologies were chosen.
+
+4️⃣ Scalability considerations
+
+Example:
+
+The platform uses event-driven architecture to ensure
+loose coupling between services and high scalability.
+
+Kafka is used as the messaging backbone to support
+high-throughput asynchronous processing.
+5️⃣ Failure handling strategy
+
+Explain:
+
+retries
+
+dead letter queues
+
+circuit breakers
+
+
+Add diagrams such as:
+
+system architecture
+
+service interaction
+
+deployment topology
+
+Use:
+
+C4 model
+
+sequence diagrams
+
+AWS architecture icons
